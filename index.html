@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owais Electrician</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        header {
+            background-color: cyan;
+            color: rgb(155, 192, 19);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: rgb(52, 129, 65);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .home {
+            background-color: #ff6347;
+            color: white;
+            padding: 80px 20px;
+        }
+        .services {
+            background-color: #fff;
+            color: #f11111;
+        }
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 280px;
+            margin: 20px;
+            text-align: left;
+        }
+        .service-card h3 {
+            color: #2c3e50;
+        }
+        .reviews {
+            background-color: #f7f7f7;
+        }
+        .review-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: 20px;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .service-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Owais Electrician</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h2>Your Trusted Electrician in Karachi</h2>
+        <p>Providing reliable, fast, and affordable electrical services for homes and businesses in Pakistan.</p>
+        <a href="#contact" style="background-color: #2c3e50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Get In Touch</a>
+    </section>
+    <section id="home">
+        <h2>Home</h2>
+        <p><em>We specialize in all kinds of residential and commercial electrical work — with over 10 years of trusted service in Karachi.</em></p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>With over 10 years of experience, Owais Electrician offers expert electrical services with professionalism and care.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <!-- Many services listed below -->
+            <div class="service-card"><h3>Electrical Wiring</h3><p>Residential and commercial wiring services.</p></div>
+            <div class="service-card"><h3>AC Installation</h3><p>Wall and split AC unit installation and wiring.</p></div>
+            <div class="service-card"><h3>Fan Installation</h3><p>Ceiling, wall, and exhaust fan installation.</p></div>
+            <div class="service-card"><h3>Switchboard Repair</h3><p>Fixing or replacing damaged switchboards.</p></div>
+            <div class="service-card"><h3>UPS Installation</h3><p>Power backup system wiring and setup.</p></div>
+            <div class="service-card"><h3>LED Lighting</h3><p>LED bulb, spotlight and decoration light setup.</p></div>
+            <div class="service-card"><h3>Generator Wiring</h3><p>Install and wire generators for backup support.</p></div>
+            <div class="service-card"><h3>Inverter Setup</h3><p>Install and configure inverters for home use.</p></div>
+            <div class="service-card"><h3>Fault Finding</h3><p>Diagnosing and fixing electrical faults.</p></div>
+            <div class="service-card"><h3>Main DB Installation</h3><p>Install and configure Main Distribution Board.</p></div>
+            <div class="service-card"><h3>Breaker Replacement</h3><p>Replace old/damaged breakers in distribution box.</p></div>
+            <div class="service-card"><h3>Motor Wiring</h3><p>Install and wire motors for water and machinery.</p></div>
+            <div class="service-card"><h3>Tube Light Fitting</h3><p>Installing tube lights and related fixtures.</p></div>
+            <div class="service-card"><h3>Geyser Connection</h3><p>Install and wire electric geysers.</p></div>
+            <div class="service-card"><h3>Intercom Setup</h3><p>Install basic intercom and bell systems.</p></div>
+            <div class="service-card"><h3>install Setup</h3><p>solar panels installation.</p></div>
+
+            <!-- You can add even more here -->
+        </div>
+    </section>
+
+    <section id="testimonials" class="reviews">
+        <h2>What Our Clients Say</h2>
+        <div id="reviews-container" class="service-grid">
+            <div class="review-card"><p>"Best electrician in our area. Very professional."</p><h4>Ali Raza</h4></div>
+            <div class="review-card"><p>"Quick and clean work. I'm impressed!"</p><h4>Hina Shahid</h4></div>
+            <div class="review-card"><p>""Great service! Quick, reliable, and professional. Highly recommended!""</p><h4>sarah</h4></div>
+
+        </div>
+        <h3>Leave a Review</h3>
+        <form id="review-form">
+            <input type="text" id="review-name" placeholder="Your Name" style="padding: 10px; width: 60%; margin: 10px; border-radius: 5px;" required><br>
+            <textarea id="review-message" placeholder="Type your review here..." style="width: 60%; height: 100px; margin: 10px; padding: 10px; border-radius: 5px;" required></textarea><br>
+            <button type="submit" style="background-color: #2c3e50; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit Review</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> 03112974518</p>
+        <p><strong>Location:</strong> PIB Colony, Karachi, Pakistan</p>
+        <p><strong>Email:</strong>Owais.jewani@gmail.com </p>
+        <a href="https://wa.me/03112974518" target="_blank" class="whatsapp-button">💬</a>
+        <a href="https://wa.me/03112974518" target="_blank" class="whatsapp-button">
+            📞 Chat on WhatsApp
+        </a>
+        
+    </section>
+
+    <footer>
+        <p>&copy;  Copyright website designed by:Afham Ahmed 2025 Owais Electrician | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.getElementById("review-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var name = document.getElementById("review-name").value;
+            var message = document.getElementById("review-message").value;
+
+            if (name && message) {
+                var reviewsContainer = document.getElementById("reviews-container");
+                var newReview = document.createElement("div");
+                newReview.classList.add("review-card");
+                newReview.innerHTML = `<p>${message}</p><h4>${name}</h4>`;
+                reviewsContainer.appendChild(newReview);
+
+                document.getElementById("review-name").value = "";
+                document.getElementById("review-message").value = "";
+            }
+        });
+    </script>
+
+</body>
+</html>
